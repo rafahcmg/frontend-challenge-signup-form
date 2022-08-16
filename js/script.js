@@ -61,8 +61,8 @@ const errorFunc = (input, message) => {
 
 const successFunc = (input) => {
     const formControl = input.parentElement;
-    formControl.classList.add('success');
     formControl.classList.remove('error');
+    formControl.classList.add('success');
     input.classList.remove('input-error-icon');
 
 }
